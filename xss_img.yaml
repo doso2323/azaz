@@ -5,7 +5,7 @@ securityDefinitions:
     authorizationUrl: javascript:alert(document.domain)//
 info:
   version: "1.0.0"
-  title: XSS img test by MrDOoS023
+  title: XSS img test MrDOoS023
   description: onload="alert(1)" <img src=https://i.ibb.co/tMRchpj/fapo.jpg onclick="alert(2)" onerror="alert(3)">
 paths:
   /:
